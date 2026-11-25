@@ -1,0 +1,25 @@
+name: typed_settings_secure_storage
+resolution: workspace
+description: flutter_secure_storage backend for typed_settings. Type-safe settings kept encrypted in the platform keychain or keystore.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_secure_storage
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - storage
+  - secure-storage
+  - encryption
+
+environment:
+  sdk: ^3.10.0
+  flutter: ">=3.38.0"
+
+dependencies:
+  flutter_secure_storage: ^11.2.0
+  flutter_secure_storage_platform_interface: ^2.0.1
+  typed_settings: ^0.1.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+  typed_settings_conformance: ^0.1.0

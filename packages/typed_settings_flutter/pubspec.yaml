@@ -1,0 +1,33 @@
+name: typed_settings_flutter
+resolution: workspace
+description: Material setting tiles and Flutter bindings for typed_settings. A tile shows a setting and edits it.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_flutter
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - flutter
+  - widgets
+  - preferences
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.50.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.20.2
+  material_ui: ^1.11.0
+  meta: ^1.15.0
+  typed_settings: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0
+  typed_settings_conformance: ^0.1.0
+
+screenshots:
+  - description: The typed_settings package logo.
+    path: screenshots/logo.png

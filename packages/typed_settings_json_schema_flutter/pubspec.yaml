@@ -1,0 +1,30 @@
+name: typed_settings_json_schema_flutter
+resolution: workspace
+description: Flutter tiles that edit typed_settings map settings through a form generated from their JSON Schema, or as raw JSON.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_json_schema_flutter
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - json-schema
+  - forms
+  - flutter
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.50.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  json_schema_builder: ^0.1.7
+  json_schema_form_builder: ^0.2.0
+  material_ui: ^1.11.0
+  typed_settings: ^0.1.0
+  typed_settings_flutter: ^0.1.0
+  typed_settings_json_schema: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^6.0.0

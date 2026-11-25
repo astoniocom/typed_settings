@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Dart / Flutter
+.dart_tool/
+build/
+
+# IDE
+.idea/
+*.iml
+
+# Flutter tool output
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Example apps inside library packages resolve on their own; their lock
+# files are as transient as the libraries'. The workspace-level example is
+# a standalone application and keeps its lock.
+packages/*/example/pubspec.lock

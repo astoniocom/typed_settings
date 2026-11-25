@@ -1,0 +1,21 @@
+name: typed_settings_json_schema
+resolution: workspace
+description: JSON Schema validation for typed_settings map settings; a map setting is checked against its schema on read and write.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_json_schema
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - json-schema
+  - validation
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  json_schema_builder: ^0.1.7
+  typed_settings: ^0.1.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6

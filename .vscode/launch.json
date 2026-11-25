@@ -1,0 +1,139 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "example",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "example (profile mode)",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "example (release mode)",
+            "cwd": "example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "typed_settings",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings",
+            "cwd": "packages/typed_settings",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings (profile mode)",
+            "cwd": "packages/typed_settings",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "typed_settings (release mode)",
+            "cwd": "packages/typed_settings",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "typed_settings_hive",
+            "cwd": "packages/typed_settings_hive",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings_hive (profile mode)",
+            "cwd": "packages/typed_settings_hive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "typed_settings_hive (release mode)",
+            "cwd": "packages/typed_settings_hive",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "typed_settings_shared_preferences",
+            "cwd": "packages/typed_settings_shared_preferences",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings example",
+            "cwd": "packages/typed_settings/example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings example (profile mode)",
+            "cwd": "packages/typed_settings/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "typed_settings example (release mode)",
+            "cwd": "packages/typed_settings/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "typed_settings_hive example",
+            "cwd": "packages/typed_settings_hive/example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings_hive example (profile mode)",
+            "cwd": "packages/typed_settings_hive/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "typed_settings_hive example (release mode)",
+            "cwd": "packages/typed_settings_hive/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "typed_settings_shared_preferences example",
+            "cwd": "packages/typed_settings_shared_preferences/example",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "typed_settings_shared_preferences example (profile mode)",
+            "cwd": "packages/typed_settings_shared_preferences/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "typed_settings_shared_preferences example (release mode)",
+            "cwd": "packages/typed_settings_shared_preferences/example",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

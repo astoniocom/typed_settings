@@ -1,0 +1,6 @@
+include: ../../analysis_options.yaml
+
+# Test support shipped as a library: every public member is documented.
+linter:
+  rules:
+    public_member_api_docs: true

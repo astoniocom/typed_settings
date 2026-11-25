@@ -1,0 +1,25 @@
+name: typed_settings_drift
+resolution: workspace
+description: Drift (SQLite) storage backend for typed_settings. A settings table mixin and a DAO that keep every box in one table.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_drift
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - storage
+  - drift
+  - sqlite
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  drift: ^2.32.1
+  typed_settings: ^0.1.0
+
+dev_dependencies:
+  build_runner: ^2.13.1
+  drift_dev: ^2.32.1
+  lints: ^6.0.0
+  test: ^1.25.6
+  typed_settings_conformance: ^0.1.0

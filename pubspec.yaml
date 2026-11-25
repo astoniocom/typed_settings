@@ -1,0 +1,16 @@
+name: typed_settings_workspace
+publish_to: none
+environment:
+  sdk: ^3.13.0
+workspace:
+  - packages/typed_settings
+  - packages/typed_settings_conformance
+  - packages/typed_settings_drift
+  - packages/typed_settings_flutter
+  - packages/typed_settings_hive
+  - packages/typed_settings_json_schema
+  - packages/typed_settings_json_schema_flutter
+  - packages/typed_settings_secure_storage
+  - packages/typed_settings_shared_preferences
+dev_dependencies:
+  melos: ^8.10.1

@@ -1,0 +1,7 @@
+scripts:
+  analyze:
+    run: melos exec -- dart analyze .
+  test:
+    run: melos exec -- flutter test
+  check:
+    run: melos publish --dry-run

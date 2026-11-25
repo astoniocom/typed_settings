@@ -1,0 +1,20 @@
+name: typed_settings_conformance
+resolution: workspace
+description: Executable storage contract for typed_settings backends; a dev dependency of backend packages.
+version: 0.1.0
+repository: https://github.com/astoniocom/typed_settings/tree/main/packages/typed_settings_conformance
+issue_tracker: https://github.com/astoniocom/typed_settings/issues
+topics:
+  - settings
+  - storage
+  - testing
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  test: ^1.25.6
+  typed_settings: ^0.1.0
+
+dev_dependencies:
+  lints: ^6.0.0
